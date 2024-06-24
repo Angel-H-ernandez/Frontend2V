@@ -1,0 +1,33 @@
+/* src/components/UserProfile.css */
+.user-profile-container {
+    padding: 20px;
+  }
+  
+  .user-profile-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-profile-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .user-profile-form input {
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .user-profile-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-profile-form button:hover {
+    background-color: #45a049;
+  }
+  
